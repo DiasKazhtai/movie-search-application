@@ -16,7 +16,6 @@ function App() {
       event.target.value = ''
     }
   }
-  console.log(state)
 
   return (
     <Fragment>
@@ -28,7 +27,7 @@ function App() {
             placeholder='Введите название фильма'
             onKeyPress={logger}/>
         </div>
-      <MovieList/>
+      <MovieList name = {state}/>
     </Fragment>
     );
 }
