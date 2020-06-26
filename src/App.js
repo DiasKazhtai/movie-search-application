@@ -1,16 +1,33 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useState } from 'react';
 import './App.css';
-import Search from './components/Search/Search'
 import MovieList from './components/MovieList/MovieList'
 
 
+
 function App() {
+  const [state, setState] = useState({
+    name: ''
+  })
+  const logger = event => {
+    if(event.key === 'Enter'){
+      setState({
+        name : event.target.value
+      })
+      event.target.value = ''
+    }
+  }
+  console.log(state)
+
   return (
     <Fragment>
       <header className='header'>
-        <h1 className='h1'>Search movie app</h1>
+        <h1 className='h1' >Search movie app</h1>
       </header>
-      <Search/>
+      <div className='Search'>
+            <input className='input' type='text' 
+            placeholder='Введите название фильма'
+            onKeyPress={logger}/>
+        </div>
       <MovieList/>
     </Fragment>
     );

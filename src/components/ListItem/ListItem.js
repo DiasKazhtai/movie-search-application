@@ -2,7 +2,7 @@ import React from 'react'
 import './ListItem.css'
 
 
-export default function ListItem (){
+export default function ListItem (props){
     return (
         <div className='ListItem'>
             <div className='item ironMan'>

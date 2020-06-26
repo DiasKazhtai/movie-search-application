@@ -3,10 +3,10 @@ import './MovieList.css'
 import ListItem from '../ListItem/ListItem'
 
 
-export default function MovieList (){
+export default function MovieList (props){
     return (
         <div className='MovieList'>
-            <ListItem/>
+            <ListItem />
         </div>
         )
 }
