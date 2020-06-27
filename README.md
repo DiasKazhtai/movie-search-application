@@ -1,3 +1,6 @@
+Вам дан список фильмов, в поиске вы можете вбить любой из них и нажать Enter, чтобы снова отобразить список всех фильмов нажмите повторно Enter
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

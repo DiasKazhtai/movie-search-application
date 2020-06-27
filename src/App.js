@@ -11,7 +11,7 @@ function App() {
   const logger = event => {
     if(event.key === 'Enter'){
       setState({
-        name : event.target.value
+        name : event.target.value.trim()
       })
       event.target.value = ''
     }

@@ -60,3 +60,26 @@
 .shinGing{
     background-image: url('../../img/shinging.jpg');
 }
+
+.forFlex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.showBtn{
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #5e71ff;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+}
+.showBtn:hover {
+    opacity: .7;
+}
