@@ -1,4 +1,8 @@
-Вам дан список фильмов, в поиске вы можете вбить любой из них и нажать Enter, чтобы снова отобразить список всех фильмов нажмите повторно Enter
+Вам дан список фильмов, в поиске вы можете вбить любой из них и нажать Enter, чтобы снова отобразить список всех фильмов нажмите повторно Enter.
+Приложение не использует API для поиска фильмов, сделано исключительно в учебных целях.
+
+You can select any of them and press Enter.
+The application does not use the API to search for films, made strictly for educational purposes.
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
