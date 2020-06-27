@@ -35,7 +35,6 @@ export default function MovieList (props){
                                 } 
                                    
                             })}
-                            <button className='showBtn' onClick={show}>Показать все фильм</button>
                         </div>  
                         : 
                         <div className="forFlex">
